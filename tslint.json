@@ -1,0 +1,7 @@
+{
+    "defaultSeverity": "error",
+    "extends": "@mymicds/configs/tslint",
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": []
+}

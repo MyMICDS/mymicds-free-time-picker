@@ -1,0 +1,29 @@
+{
+	"name": "mymicds-free-time-picker",
+	"version": "1.0.0",
+	"description": "References:  - (https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464)",
+	"main": " ",
+	"dependencies": {},
+	"devDependencies": {
+		"@angular/cli": "^1.7.2",
+		"@angular/common": "^5.0.0",
+		"@angular/compiler": "^5.2.7",
+		"@angular/compiler-cli": "^5.2.7",
+		"@angular/core": "^5.0.0",
+		"@angular/platform-browser": "^5.0.0",
+		"@angular/platform-browser-dynamic": "^5.0.0",
+		"@mymicds/configs": "^1.0.0",
+		"rollup": "^0.56.3",
+		"tslint": "^5.9.1",
+		"typescript": "^2.7.2",
+		"uglify-js": "^3.3.12"
+	},
+	"scripts": {
+		"transpile": "ngc",
+		"package": "rollup -c",
+		"minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
+		"build": "npm run transpile && npm run package && npm run minify"
+	},
+	"author": "Jack Cai",
+	"license": "MIT"
+}

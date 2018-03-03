@@ -21,7 +21,7 @@
 	"scripts": {
 		"transpile": "ngc",
 		"package": "rollup -c",
-		"minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
+		"minify": "uglifyjs dist/bundles/freetimepicker.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/freetimepicker.umd.min.js",
 		"build": "npm run transpile && npm run package && npm run minify"
 	},
 	"author": "Jack Cai",

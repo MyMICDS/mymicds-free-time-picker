@@ -10,8 +10,6 @@
 		"@angular/compiler": "^5.2.7",
 		"@angular/compiler-cli": "^5.2.7",
 		"@angular/core": "^5.0.0",
-		"@angular/platform-browser": "^5.0.0",
-		"@angular/platform-browser-dynamic": "^5.0.0",
 		"@mymicds/configs": "^1.0.0",
 		"rollup": "^0.56.3",
 		"tslint": "^5.9.1",
@@ -22,7 +20,8 @@
 		"transpile": "ngc",
 		"package": "rollup -c",
 		"minify": "uglifyjs dist/bundles/freetimepicker.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/freetimepicker.umd.min.js",
-		"build": "npm run transpile && npm run package && npm run minify"
+		"build": "npm run transpile && npm run package && npm run minify",
+		"test": "cd demo && ng serve"
 	},
 	"author": "Jack Cai",
 	"license": "MIT"

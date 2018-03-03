@@ -23,6 +23,9 @@
       "dom"
     ]
   },
+  "exclude": [
+    "demo"
+  ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true
   }

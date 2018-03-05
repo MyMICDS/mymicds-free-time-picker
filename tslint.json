@@ -3,12 +3,5 @@
     "extends": "@mymicds/configs/tslint",
     "jsRules": {},
     "rules": {},
-    "rulesDirectory": [],
-    "linterOptions": {
-        "exclude": [
-            "node_modules",
-            "dist",
-            "demo"
-        ]
-    }
+    "rulesDirectory": []
 }
